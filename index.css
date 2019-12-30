@@ -1,0 +1,155 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3, 
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+    
+/* Header Section */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+}
+
+
+/* Main Section */
+
+.main {
+  opacity: 0.9;
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+
+/* Featured Section */
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Locations Section */
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.locations .flex-container {
+  padding-top:5px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1200px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  opacity: 1.0;
+  padding: 5px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+}
+
+
+/* Contact Section */
+
+#contact {
+  padding-top: 70px;
+  height: 200px;
+  text-align: center;
+  display: block;
+}
+
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
